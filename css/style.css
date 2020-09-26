@@ -1,44 +1,34 @@
-@media (min-width: 575.98px) {
-    .content-container {
-        width: 540px;
-    }
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+header {
+  padding: 156px 0 100px;
 }
-@media (min-width: 767.98px) {
-    .content-container {
-        width: 720px;
-    }
+
+section {
+  padding: 150px 0;
 }
-@media (min-width: 991.98px) {
-    .content-container {
-        width: 960px;
-    }
+
+html, body {
+    height: 100%;
 }
-@media (min-width: 1199.98px) {
-    .content-container {
-        width: 1140px;
-    }
-}
-/*Navigation*/
-li {
-    list-style-type: none;
-}
-.nav-item {
-    text-decoration: none;
-    color: white;
-    margin: 0 2vw;
-    padding-top: 10px;
-}
-.nav-item:hover {
-    color: #E9692C;
-}
-.nav-bar {
-    display: flex;
-    padding: 10px;
-    width: 100vw;
+
+.nav-bg-custom {
     background-color: black;
 }
-/*-------*/
-.content-container {
-    margin: auto;
-    display: block;
+.nav-link {
+    color: white;
+}
+.bg-img {
+    height: 50%;
+}
+.home-header {
+    position: relative;
+    top: 35%;
+}
+.vertical-center {
+    display: flex;
+    align-items: center;
 }
