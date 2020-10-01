@@ -6,6 +6,7 @@ const form = document.getElementById('form')
 
 const nameErrorElement = document.getElementById('name-error')
 const messageErrorElement = document.getElementById('message-error')
+const emailErrorElement = document.getElementById('email-error')
 
 /*prevent page from submitting if there are errors 
 form validation without HTML "required" property */
@@ -23,8 +24,19 @@ form.addEventListener('submit', (e) => {
     }
 })
 
-// email validation
+// email validation (required only)
 
+form.addEventListener('submit', (e) => {
+    let emailErrorMessage = []
+    if (email.value === '' || email.value == null) {
+        emailErrorMessage.push('Email is required')
+    }
+    
+    if (emailErrorMessage.length > 0) {
+        e.preventDefault()  
+        emailErrorElement.innerText = emailErrorMessage
+    }
+})
 
 // message validation
 form.addEventListener('submit', (e) => {
