@@ -33,3 +33,7 @@ html, body {
     display: flex;
     align-items: center;
 }
+
+.form-error-message {
+  color: red;
+}

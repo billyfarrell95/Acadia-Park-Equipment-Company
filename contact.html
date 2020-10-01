@@ -23,20 +23,34 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark nav-bg-custom fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="index.html">Acadia</a>
+      <a class="navbar-brand " href="index.html">Acadia</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="about.html">Our Story</a>
+            <a class="nav-link " href="about.html">Our Story</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="product%20categories.html">Shop</a>
+            <div class="dropdown-menu" href="#">
+              <a class="dropdown-item" href="product categories.html">Product Page</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Camp & Hike</a>
+              <a class="dropdown-item" href="#">Hunting</a>
+              <a class="dropdown-item" href="#">Fishing</a>
+              <a class="dropdown-item" href="#">Shooting</a>
+              <a class="dropdown-item" href="#">Water Sports</a>
+              <a class="dropdown-item" href="#">Bikes & Cycling</a>
+              <a class="dropdown-item" href="#">Clothes</a>
+              <a class="dropdown-item" href="#">Outdoor Living</a>
+              <a class="dropdown-item" href="#">Grills & Outdoor Cooking</a>
+              <a class="dropdown-item" href="#">Backyard Recreation</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="product%20categories.html">Shop</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
+            <a class="nav-link " href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -71,17 +85,18 @@
                 <div id="error"></div>
                 <!-- "/" going to current URL. These are default values -->
                 <form action="/" method="get" id="form">
-                  <div id="name-error"></div>
+                  <div id="name-error" class="mb-2 form-error-message"></div>
                     <div class="form-group">
                         <input type="text" id="name" name="name" placeholder="your name" class="form-control">
                     </div>
+                    <div id="email-error" class="mb-2 form-error-message"></div>
                     <div class="form-group">
                         <input type="email" id="email" name="email" placeholder="your email" class="form-control">
                     </div>
                     <div class="form-group">
                         <input type="text" id="subject" name="subject" placeholder="subject (optional)" class="form-control">
                     </div>
-                    <div id="message-error"></div>
+                    <div id="message-error" class="mb-2 form-error-message"></div>
                     <div class="form-group">
                         <textarea type="text" id="message" name="message" placeholder="message..." class="form-control" rows="5"></textarea>
                     </div>
