@@ -15,6 +15,7 @@ html, body {
 }
 .bg-img {
     height: 50%;
+    background-position:  center center;
 }
 .home-header {
     position: relative;
