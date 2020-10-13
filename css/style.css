@@ -6,6 +6,7 @@ section {
 }
 html, body {
     height: 100%;
+    background-color: #E5E7E6;
 }
 .nav-bg-custom {
     background-color: black;
@@ -34,4 +35,8 @@ html, body {
 }
 .footer-bg {
   background-color: black;
+}
+.grid-col {
+  height: 40rem;
+  overflow: hidden;
 }
