@@ -20,7 +20,7 @@ html, body {
 }
 .home-header {
     position: relative;
-    top: 35%;
+    top: 0%;
 }
 .vertical-center {
     display: flex;
@@ -39,4 +39,33 @@ html, body {
 .grid-col {
   height: 40rem;
   overflow: hidden;
+}
+.mtn-brown {
+  color: #8A3324;
+}
+.orange-btn {
+  background-color: #E9692C;
+}
+.orange-btn:hover {
+  background-color:#E97C48;
+}
+.custom-btn {
+  border-radius: 15px;
+}
+.product-modal {
+  position: relative;
+  text-align: center;
+}
+.modal-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal-button {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10rem !important;
 }
