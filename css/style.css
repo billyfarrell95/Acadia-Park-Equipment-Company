@@ -16,11 +16,7 @@ html, body {
 }
 .bg-img {
     height: 50%;
-    background-position:  center center;
-}
-.home-header {
-    position: relative;
-    top: 0%;
+    background-position:  center;
 }
 .vertical-center {
     display: flex;
