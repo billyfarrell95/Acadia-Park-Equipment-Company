@@ -114,3 +114,9 @@ html, body {
 .send-button {
   width: 160px;
 }
+a {
+  color: black;
+}
+.product-link {
+  font-size: 22px;
+}
