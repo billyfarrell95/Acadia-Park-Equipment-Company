@@ -63,11 +63,11 @@
     </div>
   </header>
 
-  <section id="contact">
+  <div class="content-container">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6">
-                <h4>Store Hours</h4>
+            <div class="row">
+              <div class="col-lg-4">
+                <h4 class="mb-5">Store Hours</h4>
                 <p><b>Mon-Fri</b>  10am  - 7pm <br><b>Sat</b>  10am - 7pm</p>
                 <h4>Phone</h4>
                 <p>(111) 111-1111</p>
@@ -75,44 +75,37 @@
                 <p>123 Acadia Blvd <br> Anywhere, AL 11111</p>
                 <h5><a href="https://goo.gl/maps/wQ4EDGwH3YCf37rSA" target="_blank">Get directions</a></h5>
             </div>
-            <div class="col-lg-6 col-md-6 embed-responsive">
-              <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.2545610131933!2d-71.45328259160003!3d43.042297855079646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e24595182c672d%3A0x1af9c9f4bffd579e!2sSouthern%20New%20Hampshire%20University!5e1!3m2!1sen!2sus!4v1602197839510!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              <div class="col-lg-8 text-center">
+                  <h4 class="mb-5">Get in touch</h4>
+                  <div class=""></div>
+                  <div id="error"></div>
+                  <!-- "/" going to current URL. These are default values -->
+                  <form action="/" method="get" id="form">
+                    <div id="name-error" class="mb-2 form-error-message"></div>
+                      <div class="form-group">
+                          <input type="text" id="name" name="name" placeholder="your name" class="form-control">
+                      </div>
+                      <div id="email-error" class="mb-2 form-error-message"></div>
+                      <div class="form-group">
+                          <input type="email" id="email" name="email" placeholder="your email" class="form-control">
+                      </div>
+                      <div class="form-group">
+                          <input type="text" id="subject" name="subject" placeholder="subject (optional)" class="form-control">
+                      </div>
+                      <div id="message-error" class="mb-2 form-error-message"></div>
+                      <div class="form-group">
+                          <textarea type="text" id="message" name="message" placeholder="message..." class="form-control" rows="5"></textarea>
+                      </div>
+                              <div class="row">
+                                  <div class="col-lg-12 text-center">
+                                      <button type="submit" class="btn btn-lg custom-btn green-btn btn-default mt-3 text-white send-button">Send</button>
+                                  </div>
+                              </div>
+                  </form>
+              </div>
           </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3"></div>
-            <div class="col-lg-6 mt-3">
-                <h4>Get in touch</h4>
-                <div class="mt-4"></div>
-                <div id="error"></div>
-                <!-- "/" going to current URL. These are default values -->
-                <form action="/" method="get" id="form">
-                  <div id="name-error" class="mb-2 form-error-message"></div>
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="your name" class="form-control">
-                    </div>
-                    <div id="email-error" class="mb-2 form-error-message"></div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="your email" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="subject" name="subject" placeholder="subject (optional)" class="form-control">
-                    </div>
-                    <div id="message-error" class="mb-2 form-error-message"></div>
-                    <div class="form-group">
-                        <textarea type="text" id="message" name="message" placeholder="message..." class="form-control" rows="5"></textarea>
-                    </div>
-                            <div class="row">
-                                <div class="col-lg-12 text-center">
-                                    <button type="submit" class="btn btn-primary btn-default mt-3">Send</button>
-                                </div>
-                            </div>
-                </form>
-            </div>
-            <div class="col-lg-3"></div>
-        </div>
     </div>
-    </section>
+    </div>
   <!-- Footer -->
   <footer class="py-3 footer-bg">
     <div class="container text-center">
