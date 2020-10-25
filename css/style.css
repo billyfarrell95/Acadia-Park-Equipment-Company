@@ -8,6 +8,7 @@ html, body {
     height: 100%;
     background-color: #E5E7E6;
 }
+
 .nav-bg-custom {
     background-color: black;
 }
@@ -20,6 +21,7 @@ html, body {
 }
 .content-container {
   height: auto;
+  min-height: 100%;
   padding-top: 100px;
   padding-bottom: 30px;
   resize: none;
@@ -81,4 +83,25 @@ html, body {
   width: auto;
   border: 10px solid;
   border-color: black;
+}
+.img-thumbnail-custom {
+  padding: 0.25rem;
+  border: 3px solid #8A3324;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+.img-container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.centered-img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.img-shadow {
+  box-shadow: 0px 4px 8px 0px gray;
 }
