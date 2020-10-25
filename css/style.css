@@ -18,6 +18,13 @@ html, body {
     height: 50%;
     background-position:  center;
 }
+.content-container {
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  resize: none;
+  background-color: #E5E7E6;
+}
 .vertical-center {
     display: flex;
     align-items: center;
@@ -64,4 +71,14 @@ html, body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 10rem !important;
+}
+.green-btn {
+  background-color:#4CBB17;
+}
+.product-category-link {
+  display: block;
+  height: 200px;
+  width: auto;
+  border: 10px solid;
+  border-color: black;
 }
