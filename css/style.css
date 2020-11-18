@@ -1,14 +1,11 @@
 header {
   padding: 156px 0 100px;
 }
-section {
-  padding: 150px 0;
-}
+
 html, body {
     height: 100%;
     background-color: #E5E7E6;
 }
-
 .nav-bg-custom {
     background-color: black;
 }
@@ -114,9 +111,60 @@ html, body {
 .send-button {
   width: 160px;
 }
-a {
-  color: black;
-}
 .product-link {
   font-size: 22px;
+}
+
+/* From about page redesign */
+
+body {
+  font-family: 'Arial', Arial, Helvetica, sans-serif;
+}
+.first-section {
+  padding-top: 125px;
+}
+.secondary-section {
+  margin-top: 75px;
+}
+.values-list {
+  margin: auto;
+  display: block;
+  font-size: 1.20rem;
+  padding: 0.5rem;
+  color: black;
+  font-weight: 400;
+}
+.paragraph-110 {
+  font-size: 1.10rem;
+}
+.organization-img {
+  box-shadow: 0px 4px 8px 0px gray;
+}
+.organization-img:hover {
+  box-shadow: 0px 7px 11px 0px gray;
+}
+@media (min-width: 768px) {
+  .organization-img {
+    width: 120px;
+  }
+}
+.testimonial-img {
+  box-shadow: 0px 4px 8px 0px gray;
+  border-radius: 50%;
+  width: 120px;
+  margin: 0.5rem;
+}
+.underline-list-item {
+  border-top: #8A3324;
+  opacity: 15%;
+  height: 1px;
+  width: 10px;
+  border-top-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 2px 4px 0px #8A3324;
+}
+.testimonial-container {
+  background-color: #dddddd;
+  border-radius: 5px;
 }
